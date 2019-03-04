@@ -38,6 +38,11 @@
     background-color: #9b59b6;
 }
 
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+
 /* ---------------------------------------------------- Colors */
 
 /*--------------------------------------------------- Special Paddings/margin/text */
@@ -270,12 +275,13 @@ footer {
     width: 60%;
 
 }
+
 /* ---------------------------------------------------- skills */
 
 .progress {
-   position: relative;
-   height: 25px;
-   
+    position: relative;
+    height: 25px;
+
 }
 
 .progress-type {
@@ -284,7 +290,7 @@ footer {
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 
@@ -294,7 +300,7 @@ footer {
 
 /* ---------------------------------------------------- Work History */
 
-.timeline-item    {
+.timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
@@ -338,9 +344,33 @@ footer {
     margin-bottom: 50px;
 }
 
-.history-items    {
+.history-items {
     margin-bottom: 30px;
 }
+
+/* ---------------------------------------------------- Contact */
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70% !important;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+
 
 /* ---------------------------------------------------- MediaQueries */
 
@@ -349,5 +379,12 @@ footer {
         display: table-cell;
         padding: 0 30px 30px;
         float: none;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50% !important;
     }
 }
