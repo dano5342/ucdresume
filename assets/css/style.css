@@ -25,6 +25,15 @@
     background-color: #3498db;
 }
 
+.ui-menu-color-interests{
+    background-color: #A3FFF6;
+}
+
+.ui-menu-color-github {
+    background-color: #a9a9a9;
+}
+
+
 
 .ui-menu-color-download {
     background-color: #525252;
@@ -171,6 +180,13 @@ header {
     background: rgba(0, 0, 0, 0.4);
     height: 120px;
 }
+
+/* ------------------------------------------------ Map Style */
+#map {
+    min-height: 360px;
+}
+
+
 
 
 /* ---------------------------------------------------- fOOTER*/
